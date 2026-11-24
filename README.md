@@ -92,7 +92,7 @@ So We `<img>` Tag to Add Images In Our Page
 
 |  Attribute  | Description                                   |
 |    :----:   |    :----:                                     |
-| href        | This Is For Defining The Path                 |
+| src        | This Is For Defining The Path                 |
 | alt         | This Is For Defining Description Of The Image |
 | Width       | This Is For Defining The Width Of The Image   |
 | height      | This Is For Defining The Height Of The Image  |
