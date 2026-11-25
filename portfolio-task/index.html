@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Encoding and mobile view -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Tab title and icon -->
+    <title>Mohamed Gaber | Portfolio</title>
+    <link rel="icon" type="image/jpeg" href="./img/24723e14c6ea83dba68f27ab73d855b8.jpg">
+</head>
+
+<body>
+
+    <!-- Navigation menu -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Header: photo, name, job title, intro -->
+    <header id="home">
+        <img src="./img/5b7ee5f54092fd3f44eac0987f083ff3.jpg" alt="Mohamed Gaber" width="150">
+        <h1>Mohamed Gaber</h1>
+        <h2>Backend Developer</h2>
+        <p>
+            I am a third-year IT student at Zagazig University.<br>
+            I build backend and full-stack projects with Node.js.
+        </p>
+    </header>
+
+    <!-- Social links, open in a new tab -->
+    <section>
+        <a href="https://www.linkedin.com/in/mohamed-gaber-19bb1b364/" target="_blank">LinkedIn</a> |
+        <a href="https://github.com/mohamed-gaber1" target="_blank">GitHub</a>
+        <br><br>
+        <!-- Image as a link -->
+        <a href="https://github.com/mohamed-gaber1" target="_blank">
+            <img src="./img/543f64f93ba88708162128ef9a012f9f.jpg" alt="My GitHub" width="40">
+        </a>
+    </section>
+
+    <!-- About: three types of lists -->
+    <section id="about">
+        <h3>My Skills</h3>
+        <ul>
+            <li>Node.js</li>
+            <li>MongoDB</li>
+            <li>SQL</li>
+        </ul>
+
+        <h3>My Learning Steps</h3>
+        <ol>
+            <li>Learn HTML</li>
+            <li>Learn CSS</li>
+            <li>Learn JavaScript</li>
+        </ol>
+
+        <h3>About Me</h3>
+        <dl>
+            <dt>University</dt>
+            <dd>Zagazig University</dd>
+            <dt>Field</dt>
+            <dd>Computers and Information</dd>
+            <dt>Interest</dt>
+            <dd>Backend development</dd>
+        </dl>
+    </section>
+
+    <!-- Projects table -->
+    <section id="projects">
+        <h3>My Projects</h3>
+        <table border="1">
+            <tr>
+                <th>Project Name</th>
+                <th>Description</th>
+                <th>Link</th>
+            </tr>
+            <tr>
+                <td>Project One</td>
+                <td>Short description</td>
+                <td><a href="https://github.com/mohamed-gaber1" target="_blank">View</a></td>
+            </tr>
+            <tr>
+                <td>Project Two</td>
+                <td>Short description</td>
+                <td><a href="https://github.com/mohamed-gaber1" target="_blank">View</a></td>
+            </tr>
+            <tr>
+                <td>Project Three</td>
+                <td>Short description</td>
+                <td><a href="https://github.com/mohamed-gaber1" target="_blank">View</a></td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- Media: YouTube iframe, video, audio -->
+    <section>
+        <h3>Media</h3>
+
+        <iframe width="420" height="236" src="https://www.youtube.com/embed/UB1O30fR-EE" title="YouTube video" allowfullscreen></iframe>
+        <br><br>
+
+        <video controls muted poster="./img/543f64f93ba88708162128ef9a012f9f.jpg" width="420">
+            <source src="video.mp4" type="video/mp4">
+        </video>
+        <br><br>
+
+        <audio controls loop>
+            <source src="audio.mp3" type="audio/mpeg">
+        </audio>
+    </section>
+
+    <!-- Contact links -->
+    <section id="contact">
+        <h3>Contact</h3>
+        <a href="mailto:mmm@gmail.com">Email me</a><br>
+        <a href="mailto:mmm@gmail.com?subject=Hello&body=Hi Mohamed">Email me with a subject</a><br>
+        <a href="tel:+201000000000">Call me</a>
+<!-- Contact form -->
+        <form action="#" method="post">
+            <p><input type="text" name="name" placeholder="Your name" required></p>
+            <p><input type="email" name="email" placeholder="Your email" required></p>
+            <p><input type="password" name="password" placeholder="Password" required></p>
+            <p><input type="number" name="age" value="20"></p>
+            <p><input type="submit" value="Send"></p>
+        </form>
+    </section>
+
+
+</body>
+
+</html>
